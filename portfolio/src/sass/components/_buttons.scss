@@ -1,0 +1,26 @@
+.btn {
+    margin: 1.5rem auto 2rem auto;
+
+    &__btn-secondary-solid-bg {
+        border: none;
+        color: #444;
+        background-color: rgba(61,219,147,0.8);
+        padding: 1rem 7rem;
+        font-size: 1.8rem;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: bold;
+        border-radius: 2rem;
+        box-shadow: 1px 2px 15px 1px rgba(61,219,147,0.7);
+    }
+    &__btn-secondary-outline-bg {
+        border: 1px solid rgba(61,219,147,0.8);
+        color: #444;
+        // background-color: rgba(61,219,147,0.8);
+        padding: 1rem 7rem;
+        font-size: 1.8rem;
+        font-family: 'Varela Round', sans-serif;
+        font-weight: bold;
+        border-radius: 2rem;
+        box-shadow: 1px 2px 15px 1px rgba(61,219,147,0.7);
+    }
+}

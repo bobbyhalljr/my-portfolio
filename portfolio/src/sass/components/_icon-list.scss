@@ -1,0 +1,39 @@
+.icon-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    &__icon-card {
+        display: flex;
+        flex-flow: row nowrap;
+    }
+    &__icon {
+        font-size: 4rem;
+        width: 25%;
+        // background-image: linear-gradient(to right bottom, #0091ff, #00a4ff, #2bb5ff, #52c6ff, #76d5ff);
+        color: #fff;
+        padding: 2rem 2rem 1.5rem 2rem;
+        border-radius: 50%;
+        box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, 0.2);
+        margin: 0 3rem 2rem 0;
+        text-align: center;
+    }
+
+    .fa-gradient {
+        background: -webkit-gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .title--sm {
+        // width: 75%;
+        flex-basis: 1 0 75%;
+        align-self: center;
+        font-family: 'Varela Round', sans-serif;
+        &__h4--dark {
+            font-size: 1.8rem;
+        }
+        &__p--dark--sm {
+            font-size: 1.4rem;
+        }
+    }
+}

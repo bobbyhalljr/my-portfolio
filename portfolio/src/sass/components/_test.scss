@@ -1,0 +1,31 @@
+.test {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 1px 2px 15px 2px rgba(0,0,0,0.2);
+    margin: 10rem auto 5rem auto;
+    padding: 2rem 0;
+    border-radius: 2rem;
+    width: 80vw;
+
+    &__img--round {
+        width: 30%;
+        height: 30%;
+        border-radius: 50%;
+        margin-top: -6.5rem;
+        box-shadow: 1px 1px 15px 2px rgba(0,0,0,0.4);
+
+    }
+    &__p--light {
+        font-size: 1.3rem;
+        color: #a9a9a9;
+    }
+    &__p--dark {
+        font-size: 1.7rem;
+        font-style: italic;
+    }
+    &__blockquote {
+        font-size: 2rem;
+        font-style: italic;
+    }
+}

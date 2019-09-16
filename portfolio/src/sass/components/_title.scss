@@ -1,0 +1,25 @@
+.title {
+    padding-top: 5rem;
+
+    &__main-title {
+        font-size: 3.6rem;
+        font-weight: 600;
+        font-family: 'Varela Round', sans-serif;
+        text-align: left;
+        margin:.5rem 0 0 0;
+        color: #444;
+    }
+    &__sub-title--light {
+        font-size: 2.4rem;
+        font-weight: 100;
+        font-family: 'Varela Round', sans-serif;
+        text-align: left;
+        color: #a9a9a9;
+    }
+    &__hr-primary {
+        width: 40%;
+        border-radius: 100rem;
+        margin: 1rem 0 3rem 0;
+        background-image: linear-gradient(to right bottom, #0091ff, #00a4ff, #2bb5ff, #52c6ff, #76d5ff);
+    }
+}

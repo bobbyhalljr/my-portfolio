@@ -1,0 +1,28 @@
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1rem = 10px
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+    text-align: center;
+  }
+  
+  body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ol, ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  video {
+    max-width: 100%;
+    height: auto;
+  }

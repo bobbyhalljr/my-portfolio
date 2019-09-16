@@ -1,0 +1,20 @@
+.info-card {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+
+    &__img-round {
+        width: 30%;
+        height: 30%;
+        border-radius: 10rem;
+        margin-bottom: 1rem;
+    }
+    &__p-dark {
+        font-size: 1.8rem;
+        font-weight: normal;
+        font-family: 'Varela Round', sans-serif;
+        line-height: 1.6;
+        letter-spacing: .01rem;
+        margin-bottom: 2rem;
+    }
+}
