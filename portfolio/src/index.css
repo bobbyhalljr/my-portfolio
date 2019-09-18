@@ -1,13 +1,399 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+/* line 1, sass/componets/_buttons.scss */
+.btn {
+  margin: 1.5rem auto 2rem auto; }
+  /* line 4, sass/componets/_buttons.scss */
+  .btn__btn-secondary-solid-bg {
+    border: none;
+    color: #444;
+    background-color: rgba(61, 219, 147, 0.8);
+    padding: 1rem 7rem;
+    font-size: 1.8rem;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-radius: 2rem;
+    box-shadow: 1px 2px 15px 1px rgba(61, 219, 147, 0.7); }
+  /* line 15, sass/componets/_buttons.scss */
+  .btn__btn-secondary-outline-bg {
+    border: 1px solid rgba(61, 219, 147, 0.8);
+    color: #444;
+    padding: 1rem 7rem;
+    font-size: 1.8rem;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+    border-radius: 2rem;
+    box-shadow: 1px 2px 15px 1px rgba(61, 219, 147, 0.7); }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
-}
+/* line 1, sass/componets/_navbar.scss */
+.navbar {
+  height: 15vh;
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.2);
+  display: flex;
+  align-items: center; }
+  /* line 6, sass/componets/_navbar.scss */
+  .navbar__logo {
+    margin-left: 1rem; }
+  /* line 9, sass/componets/_navbar.scss */
+  .navbar__btn--solid-md {
+    margin-right: 2rem;
+    padding: 1rem 2.5rem;
+    border: none;
+    background-image: linear-gradient(to right bottom, #0091ff, #00a4ff, #2bb5ff, #52c6ff, #76d5ff);
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'Varela Round', sans-serif;
+    letter-spacing: 1.9;
+    border-radius: 4rem;
+    box-shadow: 1px 2px 15px 1px rgba(110, 189, 255, 0.8); }
+  /* line 23, sass/componets/_navbar.scss */
+  .navbar__menu-items {
+    margin-left: auto;
+    display: flex; }
+  /* line 27, sass/componets/_navbar.scss */
+  .navbar__nav-menu-mobile {
+    margin-right: 2rem; }
+
+/* line 32, sass/componets/_navbar.scss */
+.fa-bars {
+  font-size: 4rem; }
+
+/* line 2, sass/componets/_list.scss */
+.list__list-item {
+  text-align: center;
+  font-size: 1.8rem;
+  padding-bottom: 1rem; }
+
+/* line 1, sass/componets/_social-links.scss */
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem; }
+  /* line 6, sass/componets/_social-links.scss */
+  .social-links .fa-gradient {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  /* line 12, sass/componets/_social-links.scss */
+  .social-links__linkedin {
+    font-size: 2.5rem;
+    color: #6EBDFF;
+    background-color: #fff;
+    box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-right: 1rem; }
+  /* line 22, sass/componets/_social-links.scss */
+  .social-links__github {
+    font-size: 2.5rem;
+    color: #6EBDFF;
+    background-color: #fff;
+    box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 1.5rem; }
+
+/* line 1, sass/componets/_video.scss */
+.video {
+  margin-bottom: 5rem; }
+
+/* line 1, sass/componets/_title.scss */
+.title {
+  padding-top: 5rem; }
+  /* line 4, sass/componets/_title.scss */
+  .title__main-title {
+    font-size: 3.6rem;
+    font-weight: 600;
+    font-family: 'Varela Round', sans-serif;
+    text-align: left;
+    margin: .5rem 0 0 0;
+    color: #444; }
+  /* line 12, sass/componets/_title.scss */
+  .title__sub-title--light {
+    font-size: 2.4rem;
+    font-weight: 100;
+    font-family: 'Varela Round', sans-serif;
+    text-align: left;
+    color: #a9a9a9; }
+  /* line 19, sass/componets/_title.scss */
+  .title__hr-primary {
+    width: 40%;
+    border-radius: 100rem;
+    margin: 1rem 0 3rem 0;
+    background-image: linear-gradient(to right bottom, #0091ff, #00a4ff, #2bb5ff, #52c6ff, #76d5ff); }
+
+/* line 1, sass/componets/_info-card.scss */
+.info-card {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between; }
+  /* line 6, sass/componets/_info-card.scss */
+  .info-card__img-round {
+    width: 30%;
+    height: 30%;
+    border-radius: 10rem;
+    margin-bottom: 1rem; }
+  /* line 12, sass/componets/_info-card.scss */
+  .info-card__p-dark {
+    font-size: 1.8rem;
+    font-weight: normal;
+    font-family: 'Varela Round', sans-serif;
+    line-height: 1.6;
+    letter-spacing: .01rem;
+    margin-bottom: 2rem; }
+
+/* line 1, sass/componets/_social-links.scss */
+.social-links {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 3rem; }
+  /* line 6, sass/componets/_social-links.scss */
+  .social-links .fa-gradient {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  /* line 12, sass/componets/_social-links.scss */
+  .social-links__linkedin {
+    font-size: 2.5rem;
+    color: #6EBDFF;
+    background-color: #fff;
+    box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 1.5rem;
+    margin-right: 1rem; }
+  /* line 22, sass/componets/_social-links.scss */
+  .social-links__github {
+    font-size: 2.5rem;
+    color: #6EBDFF;
+    background-color: #fff;
+    box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    padding: 1.5rem; }
+
+/* line 1, sass/componets/_icon-list.scss */
+.icon-list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap; }
+  /* line 5, sass/componets/_icon-list.scss */
+  .icon-list__icon-card {
+    display: flex;
+    flex-flow: row nowrap; }
+  /* line 9, sass/componets/_icon-list.scss */
+  .icon-list__icon {
+    font-size: 4rem;
+    width: 25%;
+    color: #fff;
+    padding: 2rem 2rem 1.5rem 2rem;
+    border-radius: 50%;
+    box-shadow: 1px 2px 15px 0 rgba(0, 0, 0, 0.2);
+    margin: 0 3rem 2rem 0;
+    text-align: center; }
+  /* line 21, sass/componets/_icon-list.scss */
+  .icon-list .fa-gradient {
+    background: -webkit-gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; }
+  /* line 27, sass/componets/_icon-list.scss */
+  .icon-list .title--sm {
+    flex-basis: 1 0 75%;
+    align-self: center;
+    font-family: 'Varela Round', sans-serif; }
+    /* line 32, sass/componets/_icon-list.scss */
+    .icon-list .title--sm__h4--dark {
+      font-size: 1.8rem; }
+    /* line 35, sass/componets/_icon-list.scss */
+    .icon-list .title--sm__p--dark--sm {
+      font-size: 1.4rem; }
+
+/* line 1, sass/componets/_project.scss */
+.project {
+  border-radius: 1.5rem;
+  height: 40vh;
+  margin: 4rem 0;
+  display: flex;
+  align-items: flex-end;
+  box-shadow: 3px 5px 15px 3px rgba(175, 175, 175, 0.9);
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+  /* line 14, sass/componets/_project.scss */
+  .project__bg--video {
+    position: absolute;
+    z-index: -100;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; }
+  /* line 23, sass/componets/_project.scss */
+  .project__title {
+    padding: 2rem; }
+    /* line 25, sass/componets/_project.scss */
+    .project__title--main-title {
+      font-size: 1.9rem;
+      color: #fff; }
+    /* line 29, sass/componets/_project.scss */
+    .project__title--sub-title {
+      font-size: 1.5rem;
+      color: #a9a9a9; }
+  /* line 34, sass/componets/_project.scss */
+  .project__btn {
+    padding: 2rem;
+    margin-left: auto; }
+    /* line 37, sass/componets/_project.scss */
+    .project__btn--solid-sm {
+      padding: 1rem 1.7rem;
+      border: none;
+      background-image: linear-gradient(to right bottom, #0091ff, #00a4ff, #2bb5ff, #52c6ff, #76d5ff);
+      color: #fff;
+      font-size: 1.6rem;
+      font-family: 'Varela Round', sans-serif;
+      letter-spacing: .5px;
+      border-radius: 4rem;
+      box-shadow: 1px 2px 15px 1px rgba(110, 189, 255, 0.4);
+      opacity: 0.9; }
+
+/* line 1, sass/componets/_test.scss */
+.test {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 1px 2px 15px 2px rgba(0, 0, 0, 0.2);
+  margin: 10rem auto 5rem auto;
+  padding: 2rem 0;
+  border-radius: 2rem;
+  width: 80vw; }
+  /* line 11, sass/componets/_test.scss */
+  .test__img--round {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin-top: -6.5rem;
+    box-shadow: 1px 1px 15px 2px rgba(0, 0, 0, 0.4); }
+  /* line 19, sass/componets/_test.scss */
+  .test__p--light {
+    font-size: 1.3rem;
+    color: #a9a9a9; }
+  /* line 23, sass/componets/_test.scss */
+  .test__p--dark {
+    font-size: 1.7rem;
+    font-style: italic; }
+  /* line 27, sass/componets/_test.scss */
+  .test__blockquote {
+    font-size: 2rem;
+    font-style: italic; }
+
+/* line 1, sass/componets/_img.scss */
+.img {
+  text-align: center; }
+  /* line 3, sass/componets/_img.scss */
+  .img__img--round {
+    width: 30%;
+    height: 30%;
+    border-radius: 50%;
+    margin: 1.5rem 0; }
+
+/* line 1, sass/base/_reset.scss */
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+
+/* line 6, sass/base/_reset.scss */
+*, *:before, *:after {
+  box-sizing: inherit;
+  text-align: center; }
+
+/* line 11, sass/base/_reset.scss */
+body, h1, h2, h3, h4, h5, h6, p, ol, ul {
+  margin: 0;
+  padding: 0; }
+
+/* line 16, sass/base/_reset.scss */
+ol, ul {
+  list-style: none; }
+
+/* line 20, sass/base/_reset.scss */
+img {
+  max-width: 100%;
+  height: auto; }
+
+/* line 25, sass/base/_reset.scss */
+video {
+  max-width: 100%;
+  height: auto; }
+
+/* line 1, sass/base/_typography.scss */
+body {
+  font-family: 'Varela Round', sans-serif; }
+
+/* line 6, sass/base/_typography.scss */
+.heading__h1--dark {
+  font-size: 3.6rem;
+  font-weight: 600;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  margin: 5rem 0 1rem 0;
+  color: #444; }
+
+/* line 14, sass/base/_typography.scss */
+.heading__h2--light {
+  font-size: 2.2rem;
+  font-weight: 400;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  margin: 0 0 5rem 0;
+  color: #a9a9a9; }
+
+/* line 22, sass/base/_typography.scss */
+.heading__h2--dark {
+  font-size: 2.8rem;
+  font-weight: 400;
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  margin: 3.5rem 0;
+  color: #444; }
+
+/* line 30, sass/base/_typography.scss */
+.heading__h4-dark {
+  font-size: 3rem; }
+
+/* line 35, sass/base/_typography.scss */
+.paragraph {
+  padding: 2.5rem 0;
+  text-align: center; }
+  /* line 38, sass/base/_typography.scss */
+  .paragraph__p--dark {
+    font-size: 1.9rem; }
+  /* line 41, sass/base/_typography.scss */
+  .paragraph__p--light {
+    font-size: 1.9rem;
+    color: #a9a9a9; }
+  /* line 45, sass/base/_typography.scss */
+  .paragraph__p--dark {
+    color: #444;
+    font-size: 1.9rem; }
+  /* line 49, sass/base/_typography.scss */
+  .paragraph__p--dark--sm {
+    color: #444;
+    font-size: 1.3rem; }
+
+/* line 1, sass/layout/_container.scss */
+.container {
+  width: 90vw;
+  margin: 0 auto; }
+
+/* line 1, sass/layout/_about-me.scss */
+.about-me {
+  background-color: #f6f6f6;
+  text-align: center; }
+
+/* line 1, sass/layout/_skills.scss */
+.skills {
+  background-color: #fff; }
+
+/* line 1, sass/layout/_align-center.scss */
+.align-center {
+  text-align: center; }
+
+/* line 1, sass/layout/_footer.scss */
+footer {
+  margin: 3rem 0; }
+
