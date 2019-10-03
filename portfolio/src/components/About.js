@@ -2,6 +2,8 @@ import React from 'react';
 
 import Model2 from './Model2';
 
+import bobbyPhoto from '../images/headshot.jpg';
+
 const About = () => {
 
     return (
@@ -16,7 +18,7 @@ const About = () => {
 
                 <div class="info-card">
                     <div class="img">
-                        <img class="img__img--round" src="images/headshot.jpg" alt="picture of bobby leon hall jr" />
+                        <img class="img__img--round" src={bobbyPhoto} alt="picture of bobby leon hall jr" />
                     </div>
                     <div class="info-card__p-dark">
                         <p>

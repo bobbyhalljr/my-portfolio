@@ -18,7 +18,7 @@ const Footer = () => {
                 <div class="paragraph">
                     <p class="paragraph__p--dark">
                         If you have any questions please feel free to
-                        Email Me. yes this is the footer.
+                        Email Me.
                     </p>
                 </div>
 

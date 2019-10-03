@@ -1,5 +1,8 @@
 import React from 'react';
 
+import budget from '../images/budget-app.jpg';
+import crypto from '../images/crypto.jpg';
+
 const Portfolio = () => {
 
     return (
@@ -15,25 +18,24 @@ const Portfolio = () => {
                 <div class="paragraph">
                     <p class="paragraph__p--dark">
                         If you have any questions please feel free to
-                        <a href="#">Email Me.</a>
+                        <a href="#"> Email Me.</a>
                     </p>
                 </div>
 
                 <div class="project">
                     <div class="project__bg">
-                        <video loop muted autoplay poster="video/video1" class="project__bg--video" src="video/video1.mp4" type="video/mp4">
-                        </video>
+                        <img src={budget} className='project__bg--video' />
                     </div>
                     <div class="project__title">
                         <div class="project__title--sub-title">
-                            Sub-title of project
+                            Keeps track of expenses (CRUD app)
                         </div>
                         <div class="project__title--main-title">
-                            Title of project
+                            Budget-App
                         </div>
                     </div>
                     <div class="project__btn">
-                        <a href="#">
+                        <a href="https://budget-app.bobbyhalljr.now.sh/">
                             <button class="project__btn--solid-sm">View Project</button>
                         </a>
                     </div>
@@ -41,19 +43,18 @@ const Portfolio = () => {
 
                 <div class="project">
                     <div class="project__bg">
-                        <video loop muted autoplay poster="video/video1" class="project__bg--video" src="video/video1.mp4" type="video/mp4">
-                        </video>
+                        <img src={crypto} className='project__bg--video' />
                     </div>
                     <div class="project__title">
                         <div class="project__title--sub-title">
-                            Sub-title of project
+                            Crypto Currency Tracker (API)
                         </div>
                         <div class="project__title--main-title">
-                            Title of project
+                            Crypto Tracker
                         </div>
                     </div>
                     <div class="project__btn">
-                        <a href="#">
+                        <a href="https://dark-mode-ctt6mpapu.now.sh/">
                             <button class="project__btn--solid-sm">View Project</button>
                         </a>
                     </div>
