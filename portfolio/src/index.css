@@ -279,7 +279,8 @@
   /* line 27, sass/componets/_test.scss */
   .test__blockquote {
     font-size: 2rem;
-    font-style: italic; }
+    font-style: italic; 
+  padding: 0 15px; }
 
 /* line 1, sass/componets/_img.scss */
 .img {
@@ -290,7 +291,8 @@
     width: 30%;
     height: 30%;
     border-radius: 50%;
-    margin: 1.5rem 0; }
+    margin: 1.5rem 0;
+    margin-bottom: 50px; }
 
 /* line 1, sass/base/_reset.scss */
 html {
@@ -401,8 +403,37 @@ footer {
 /* Media Quires */
 @media(min-width: 800px){
   .container {
-    max-width: 60%;
+    max-width: 100%;
   }
 
+  .img__img--round {
+    margin-bottom: 100px;
+  }
+
+  .project {
+    max-width: 80%;
+  }
+
+  .test {
+    max-width: 60%;
+  }
+}
+
+@media(min-width: 1200px){
+  .container {
+    max-width: 60%;
+  }
+  
+  .img__img--round {
+    margin-bottom: 250px;
+  }
+
+  .project {
+    max-width: 80%;
+  }
+
+  .test {
+    max-width: 60%;
+  }
 }
 
