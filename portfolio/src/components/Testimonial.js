@@ -14,7 +14,7 @@ const Testimonial = () => {
 
                 <div class="test">
                     <div class="img">
-                        <img class="test__img--round" src="img/headshot.jpg" alt="picture of bobby leon hall jr" />
+                        <img class="test__img--round" src={require("../images/headshot.jpg")} alt="picture of bobby leon hall jr" />
                     </div>
                     <div class="test__body">
                         <div class="paragraph">

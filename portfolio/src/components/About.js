@@ -16,7 +16,7 @@ const About = () => {
 
                 <div class="info-card">
                     <div class="img">
-                        <img class="img__img--round" src="images/headshot.jpg" alt="picture of bobby leon hall jr" />
+                        <img class="img__img--round" src={require("../images/headshot.jpg")} alt="picture of bobby leon hall jr" />
                     </div>
                     <div class="info-card__p-dark">
                         <p>

@@ -61,7 +61,7 @@ const Portfolio = () => {
 
                 <div class="project">
                     <div class="project__bg">
-                        <video loop muted autoplay poster="video/video1" class="project__bg--video" src="video/video1.mp4" type="video/mp4">
+                        <video loop muted autoplay poster={require("../video/video1.mp4")} class="project__bg--video" src="video/video1.mp4" type="video/mp4">
                         </video>
                     </div>
                     <div class="project__title">

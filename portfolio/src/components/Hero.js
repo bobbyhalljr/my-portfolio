@@ -11,7 +11,7 @@ const Hero = () => {
                 </div>
 
                 <div class="video">
-                    <video controls src="video/video1.mp4"></video>
+                    <video controls src="../video/video1.mp4"></video>
                 </div>
             </div>
         </section>
