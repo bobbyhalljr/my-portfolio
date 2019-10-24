@@ -421,14 +421,13 @@ footer {
 
 @media(min-width: 1200px){
   .container {
-    max-width: 60%;
+    max-width: 70%;
   }
   
   .img__img--round {
-    margin-bottom: 250px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
   }
-
-  .
 
   .project {
     max-width: 80%;

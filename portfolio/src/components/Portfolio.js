@@ -3,7 +3,7 @@ import React from 'react';
 import budget from '../images/budget-app.jpg';
 import crypto from '../images/crypto.jpg';
 
-const Portfolio = () => {
+const Portfolio = (props) => {
 
     return (
         <section class="portfolio">
@@ -18,7 +18,7 @@ const Portfolio = () => {
                 <div class="paragraph">
                     <p class="paragraph__p--dark">
                         If you have any questions please feel free to
-                        <a href="#"> Email Me.</a>
+                        <a href={`mailto: ${props.mail}`}> Email Me.</a>
                     </p>
                 </div>
 
@@ -60,7 +60,7 @@ const Portfolio = () => {
                     </div>
                 </div>
 
-                <div class="project">
+                {/* <div class="project">
                     <div class="project__bg">
                         <video loop muted autoplay poster={require("../video/video1.mp4")} class="project__bg--video" src="video/video1.mp4" type="video/mp4">
                         </video>
@@ -78,7 +78,7 @@ const Portfolio = () => {
                             <button class="project__btn--solid-sm">View Project</button>
                         </a>
                     </div>
-                </div>
+                </div> */}
 
                 <div class="paragraph">
                     <p class="paragraph__p--light">Want to see more? </p>

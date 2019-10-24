@@ -1,9 +1,11 @@
 import React from 'react';
-import { Modal, Button } from 'antd';
+import { Modal, Button, Input } from 'antd';
+
+const { TextArea } = Input;
 
 class Model extends React.Component {
   state = {
-    ModalText: 'Content of the modal',
+    ModalText: "I'm open to collaborating or just chatting",
     visible: false,
     confirmLoading: false,
   };
@@ -16,7 +18,7 @@ class Model extends React.Component {
 
   handleOk = () => {
     this.setState({
-      ModalText: 'The modal will be closed after two seconds',
+      ModalText: 'Your message has been sent',
       confirmLoading: true,
     });
     setTimeout(() => {
@@ -24,7 +26,7 @@ class Model extends React.Component {
         visible: false,
         confirmLoading: false,
       });
-    }, 2000);
+    }, 1000);
   };
 
   handleCancel = () => {
@@ -42,13 +44,15 @@ class Model extends React.Component {
           Say Hello! 👋🏽
         </button> 
         <Modal
-          title="Title"
+          title="Fill out this form to contact me"
           visible={visible}
           onOk={this.handleOk}
           confirmLoading={confirmLoading}
           onCancel={this.handleCancel}
         >
           <p>{ModalText}</p>
+          <Input placeholder="Name" style={{ marginBottom: '10px' }}/>
+          <TextArea placeholder='Description' rows={4} />
         </Modal>
       </div>
     );
