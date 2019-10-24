@@ -69,8 +69,8 @@
   margin-bottom: 3rem; }
   /* line 6, sass/componets/_social-links.scss */
   .social-links .fa-gradient {
-    background: -webkit-gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
-    -webkit-background-clip: text;
+    background: gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
+    background-clip: text;
     -webkit-text-fill-color: transparent; }
   /* line 12, sass/componets/_social-links.scss */
   .social-links__linkedin {

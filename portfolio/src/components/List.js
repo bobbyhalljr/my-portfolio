@@ -17,6 +17,8 @@ const List = () => {
                         <li class="list__list-item">HTML / CSS / JavaScript</li>
                         <li class="list__list-item">React.js</li>
                         <li class="list__list-item">Node.js</li>
+                        <li class="list__list-item">HTTP / AJAX</li>
+                        <li class="list__list-item">SQL / Postgres</li>
                         <li class="paragraph__p--light">Tools</li>
                         <li class="list__list-item">Github</li>
                         <li class="list__list-item">Postman / Insomnia</li>

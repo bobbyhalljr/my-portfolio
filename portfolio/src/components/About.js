@@ -27,8 +27,8 @@ const About = () => {
                     </div>
 
                     <div class="social-links">
-                        <i class=" social-links__linkedin fab fa-linkedin-in fa-gradient"></i>
-                        <i class=" social-links__github fab fa-github-alt fa-gradient"></i>
+                        <a href='https://www.linkedin.com/in/bobby-hall-jr-339091143/'><i class=" social-links__linkedin fab fa-linkedin-in fa-gradient"></i></a>
+                        <a href='https://github.com/bobbyhalljr'><i class=" social-links__github fab fa-github-alt fa-gradient"></i></a>
                     </div>
 
                     <div class="btn">
