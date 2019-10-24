@@ -7,18 +7,21 @@ const List = () => {
         <div class="list-with-heading">
                 <div class="heading">
                     <h2 class="heading__h2--dark">
-                        Dev Tools:
+                        Dev Tools
                     </h2>
                 </div>
 
                 <div class="ul">
                     <ul class="list">
+                        <li class="paragraph__p--light">Technologies</li>
+                        <li class="list__list-item">HTML / CSS / JavaScript</li>
+                        <li class="list__list-item">React.js</li>
+                        <li class="list__list-item">Node.js</li>
+                        <li class="paragraph__p--light">Tools</li>
                         <li class="list__list-item">Github</li>
-                        <li class="list__list-item">Chrome</li>
-                        <li class="list__list-item">CodePen</li>
-                        <li class="list__list-item">Command Line</li>
-                        <li class="list__list-item">Netlify</li>
-                        <li class="list__list-item">Flexbox & CSS Grid</li>
+                        <li class="list__list-item">Postman / Insomnia</li>
+                        <li class="list__list-item">Command Line / Terminal</li>
+                        <li class="list__list-item">Netlify / Zeit / Heroku</li>
                         <li class="list__list-item">VS Code</li>
                     </ul>
                 </div>
