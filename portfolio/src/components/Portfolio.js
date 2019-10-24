@@ -18,7 +18,7 @@ const Portfolio = (props) => {
                 <div class="paragraph">
                     <p class="paragraph__p--dark">
                         If you have any questions please feel free to
-                        <a href={`mailto: ${props.mail}`}> Email Me.</a>
+                        <a href={`mailto: bobbyhalljrcs@gmail.com`}> Email Me.</a>
                     </p>
                 </div>
 
