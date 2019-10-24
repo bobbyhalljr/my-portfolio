@@ -69,8 +69,8 @@
   margin-bottom: 3rem; }
   /* line 6, sass/componets/_social-links.scss */
   .social-links .fa-gradient {
-    background: gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
-    background-clip: text;
+    background: -webkit-gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; }
   /* line 12, sass/componets/_social-links.scss */
   .social-links__linkedin {
@@ -122,7 +122,7 @@
 /* line 1, sass/componets/_info-card.scss */
 .info-card {
   display: flex;
-  flex-flow: column wrap;
+  flex-flow: column nowrap;
   justify-content: space-between; }
   /* line 6, sass/componets/_info-card.scss */
   .info-card__img-round {
@@ -146,8 +146,8 @@
   margin-bottom: 3rem; }
   /* line 6, sass/componets/_social-links.scss */
   .social-links .fa-gradient {
-    background: -webkit-gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
-    -webkit-background-clip: text;
+    background: gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
+    background-clip: text;
     -webkit-text-fill-color: transparent; }
   /* line 12, sass/componets/_social-links.scss */
   .social-links__linkedin {
@@ -188,8 +188,8 @@
     text-align: center; }
   /* line 21, sass/componets/_icon-list.scss */
   .icon-list .fa-gradient {
-    background: -webkit-gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
-    -webkit-background-clip: text;
+    background: gradient(linear, left top, left bottom, from(#0091ff), to(#76d5ff));
+    background-clip: text;
     -webkit-text-fill-color: transparent; }
   /* line 27, sass/componets/_icon-list.scss */
   .icon-list .title--sm {
@@ -207,7 +207,7 @@
 .project {
   border-radius: 1.5rem;
   height: 40vh;
-  margin: 4rem 0;
+  margin: 4rem auto;
   display: flex;
   align-items: flex-end;
   box-shadow: 3px 5px 15px 3px rgba(175, 175, 175, 0.9);
@@ -427,6 +427,8 @@ footer {
   .img__img--round {
     margin-bottom: 250px;
   }
+
+  .
 
   .project {
     max-width: 80%;
