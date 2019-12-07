@@ -54,32 +54,11 @@ const Portfolio = (props) => {
                         </div>
                     </div>
                     <div class="project__btn">
-                        <a href="https://dark-mode-ctt6mpapu.now.sh/">
+                        <a href="https://crypto-tracker-i6p8l7s3g.now.sh/">
                             <button class="project__btn--solid-sm">View Project</button>
                         </a>
                     </div>
                 </div>
-
-                {/* <div class="project">
-                    <div class="project__bg">
-                        <video loop muted autoplay poster={require("../video/video1.mp4")} class="project__bg--video" src="video/video1.mp4" type="video/mp4">
-                        </video>
-                    </div>
-                    <div class="project__title">
-                        <div class="project__title--sub-title">
-                            Sub-title of project
-                        </div>
-                        <div class="project__title--main-title">
-                            Title of project
-                        </div>
-                    </div>
-                    <div class="project__btn">
-                        <a href="#">
-                            <button class="project__btn--solid-sm">View Project</button>
-                        </a>
-                    </div>
-                </div> */}
-
                 <div class="paragraph">
                     <p class="paragraph__p--light">Want to see more? </p>
                         <p class="paragraph__p--dark">Take a look at my GitHub profile.</p>
