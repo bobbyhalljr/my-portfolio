@@ -1,7 +1,7 @@
 import React from 'react';
 
 import budget from '../images/budget-app.jpg';
-import crypto from '../images/crypto.jpg';
+import crypto from '../images/crypto.jpeg';
 
 const Portfolio = (props) => {
 
@@ -54,7 +54,7 @@ const Portfolio = (props) => {
                         </div>
                     </div>
                     <div class="project__btn">
-                        <a href="https://crypto-tracker-i6p8l7s3g.now.sh/">
+                        <a href="https://crytpo-tracker.now.sh/">
                             <button class="project__btn--solid-sm">View Project</button>
                         </a>
                     </div>
