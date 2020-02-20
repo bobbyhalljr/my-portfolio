@@ -2,6 +2,7 @@ import React from 'react';
 
 import budget from '../images/budget-app.jpg';
 import crypto from '../images/crypto.jpeg';
+import swaap from '../images/swaap.jpg';
 
 const Portfolio = (props) => {
 
@@ -20,6 +21,25 @@ const Portfolio = (props) => {
                         If you have any questions please feel free to
                         <a href={`mailto: bobbyhalljrcs@gmail.com`}> Email Me.</a>
                     </p>
+                </div>
+
+                <div class="project">
+                    <div class="project__bg">
+                        <img src={swaap} className='project__bg--video' />
+                    </div>
+                    <div class="project__title">
+                        <div class="project__title--sub-title">
+                            A website and IOS app that allows you to scan and read a QR code and store contacts.
+                        </div>
+                        <div class="project__title--main-title">
+                            Swaap (professional Contacts)
+                        </div>
+                    </div>
+                    <div class="project__btn">
+                        <a href="https://swaap.co">
+                            <button class="project__btn--solid-sm">View Project</button>
+                        </a>
+                    </div>
                 </div>
 
                 <div class="project">

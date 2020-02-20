@@ -14,13 +14,17 @@ const List = () => {
                 <div class="ul">
                     <ul class="list">
                         <li class="paragraph__p--light">Technologies</li>
-                        <li class="list__list-item">HTML / CSS / JavaScript</li>
+                        <br />
+                        <li class="list__list-item">HTML / CSS / JavaScript(ES6+)</li>
                         <li class="list__list-item">React.js</li>
                         <li class="list__list-item">Node.js</li>
-                        <li class="list__list-item">HTTP / AJAX</li>
+                        <li class="list__list-item">HTTP</li>
+                        <li class="list__list-item">Rest API's / GraphQL</li>
                         <li class="list__list-item">SQL / Postgres</li>
+                        <br />
                         <li class="paragraph__p--light">Tools</li>
-                        <li class="list__list-item">Github</li>
+                        <br />
+                        <li class="list__list-item">Github / Git</li>
                         <li class="list__list-item">Postman / Insomnia</li>
                         <li class="list__list-item">Command Line / Terminal</li>
                         <li class="list__list-item">Netlify / Zeit / Heroku</li>

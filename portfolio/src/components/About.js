@@ -22,7 +22,26 @@ const About = () => {
                     </div>
                     <div class="info-card__p-dark">
                         <p>
-                            I'm currently making a career switch from a factory commercial baker to software engineer. I respecfully resigned from being a baker (Forever). My mindset now is on meaningful work that helps people through financial education and financial technology.
+                            My mindset is on meaningful work and meaningful relationships.
+                            I have 3 years experience with HTML, CSS, and vanilla Javascript (ES6+). I also have experience with React.js, Node,js, GraphQL and PostgresQL.
+                            <br />
+                            <br />
+                            I'm very passionate about Front-End development but I am very well versed with Backend Development with Node.js and a little Python.
+                            <br />
+                            <br />
+                            I have work extensively with:
+                            <br />
+                            Remote teams
+                            <br />
+                            UX designers
+                            <br />
+                            Project managers
+                            <br />
+                            Team leads
+                            <br />
+                            Front-end developers
+                            <br />
+                            Backend developers
                         </p>
                     </div>
 

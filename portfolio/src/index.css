@@ -214,7 +214,7 @@
   position: relative;
   overflow: hidden;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)); }
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)); }
   /* line 14, sass/componets/_project.scss */
   .project__bg--video {
     position: absolute;
@@ -222,7 +222,8 @@
     top: 0;
     width: 100%;
     height: 100%;
-    object-fit: fit; }
+    /* object-fit: fit;  */
+    background-size: cover;}
   /* line 23, sass/componets/_project.scss */
   .project__title {
     padding: 2rem; }
@@ -237,7 +238,8 @@
   /* line 34, sass/componets/_project.scss */
   .project__btn {
     padding: 2rem;
-    margin-left: auto; }
+    margin-left: auto; 
+    width: 50%}
     /* line 37, sass/componets/_project.scss */
     .project__btn--solid-sm {
       padding: 1rem 1.7rem;
@@ -249,7 +251,7 @@
       letter-spacing: .5px;
       border-radius: 4rem;
       box-shadow: 1px 2px 15px 1px rgba(110, 189, 255, 0.4);
-      opacity: 0.9; }
+      opacity: 0.9;}
 
 /* line 1, sass/componets/_test.scss */
 .test {
@@ -411,7 +413,7 @@ footer {
   }
 
   .project {
-    max-width: 80%;
+    min-width: 80%;
   }
 
   .test {
@@ -430,7 +432,8 @@ footer {
   }
 
   .project {
-    max-width: 80%;
+    max-width: 40%;
+    max-height: 40%;
   }
 
   .test {
