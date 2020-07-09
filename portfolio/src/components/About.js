@@ -18,12 +18,12 @@ const About = () => {
 
                 <div class="info-card">
                     <div class="img">
-                        <img class="img__img--round" src={bobbyPhoto} alt="picture of bobby leon hall jr" />
+                        <img class="img__img--round" src={bobbyPhoto} alt="bobby leon hall jr" />
                     </div>
                     <div class="info-card__p-dark">
                         <p>
                             My mindset is on meaningful work and meaningful relationships.
-                            I have 3 years experience with HTML, CSS, and vanilla Javascript (ES6+). I also have experience with React.js, Node,js, GraphQL and PostgresQL.
+                            I have experience with HTML, CSS, and vanilla Javascript (ES6+). I also have experience with React.js, Node,js, GraphQL and PostgresQL.
                             <br />
                             <br />
                             I'm very passionate about Front-End development but I am very well versed with Backend Development with Node.js and a little Python.

@@ -226,32 +226,42 @@
     background-size: cover;}
   /* line 23, sass/componets/_project.scss */
   .project__title {
-    padding: 2rem; }
+    margin-left: 1rem; 
+    margin-bottom: 1rem;
+  }
     /* line 25, sass/componets/_project.scss */
     .project__title--main-title {
-      font-size: 1.9rem;
-      color: #fff; }
+      font-size: 18px;
+      text-align: left;
+      color: #fff; 
+    }
     /* line 29, sass/componets/_project.scss */
     .project__title--sub-title {
-      font-size: 1.6rem;
-      color: #d9d9d9; }
+      font-size: 16px;
+      text-align: left;
+      color: #d9d9d9; 
+    }
   /* line 34, sass/componets/_project.scss */
   .project__btn {
     padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
     margin-left: auto; 
-    width: 50%}
+    white-space: nowrap;
+    width: 100%}
     /* line 37, sass/componets/_project.scss */
     .project__btn--solid-sm {
-      padding: 1rem 1.7rem;
+      padding: 1rem 1.5rem;
       border: none;
       background-image: linear-gradient(to right bottom, #0091ff, #00a4ff, #2bb5ff, #52c6ff, #76d5ff);
       color: #fff;
-      font-size: 1.6rem;
+      font-size: 16px;
       font-family: 'Varela Round', sans-serif;
       letter-spacing: .5px;
       border-radius: 4rem;
       box-shadow: 1px 2px 15px 1px rgba(110, 189, 255, 0.4);
-      opacity: 0.9;}
+      /* opacity: 0.9; */
+    }
 
 /* line 1, sass/componets/_test.scss */
 .test {
@@ -287,7 +297,8 @@
 /* line 1, sass/componets/_img.scss */
 .img {
   text-align: center; 
-  margin-bottom: 30px; }
+  margin-bottom: 30px;
+  object-fit: cover; }
   /* line 3, sass/componets/_img.scss */
   .img__img--round {
     width: 30%;
@@ -299,7 +310,7 @@
 /* line 1, sass/base/_reset.scss */
 html {
   box-sizing: border-box;
-  font-size: 62.5%; }
+  font-size: 72.5%; }
 
 /* line 6, sass/base/_reset.scss */
 *, *:before, *:after {
@@ -318,7 +329,8 @@ ol, ul {
 /* line 20, sass/base/_reset.scss */
 img {
   max-width: 100%;
-  height: auto; }
+  height: auto; 
+  object-fit: contain;}
 
 /* line 25, sass/base/_reset.scss */
 video {
@@ -410,6 +422,8 @@ footer {
 
   .img__img--round {
     margin-bottom: 100px;
+    width: 22rem;
+    /* height: 20rem; */
   }
 
   .project {

@@ -1,12 +1,16 @@
 import React from 'react';
+import { Link, Switch, Route } from 'react-router-dom';
+import App from '../App';
 
 import budget from '../images/budget-app.jpg';
 import crypto from '../images/crypto.jpeg';
 import swaap from '../images/swaap.jpg';
+import SinglePortfolio from '../components/SinglePortfolio';
 
 const Portfolio = (props) => {
 
     return (
+        <>
         <section class="portfolio">
             <div class="container">
 
@@ -29,15 +33,16 @@ const Portfolio = (props) => {
                     </div>
                     <div class="project__title">
                         <div class="project__title--sub-title">
-                            A website and IOS app that allows you to scan and read a QR code and store contacts.
+                            Store contacts, write notes, remember where you met someone.
                         </div>
                         <div class="project__title--main-title">
                             Swaap (professional Contacts)
                         </div>
                     </div>
                     <div class="project__btn">
-                        <a href="https://swaap.co">
-                            <button class="project__btn--solid-sm">View Project</button>
+                        <a href='https://swaap.co'>
+                            {/* <h3 className='project__btn--solid-sm'>view</h3> */}
+                            <button className="project__btn--solid-sm">View Project</button>
                         </a>
                     </div>
                 </div>
@@ -92,6 +97,7 @@ const Portfolio = (props) => {
 
             </div>
         </section>
+        </>
     )
 }
 

@@ -29,7 +29,7 @@ const Footer = () => {
 
                 <div class="footer-text">
                     <div class="footer-text__small">
-                        Made with hard work and ❤️ by Bobby Leon Hall Jr &copy; 2019
+                        Made with hard work and <span style={{ paddingRight: '0.5rem' }}>❤️</span> by Bobby Leon Hall Jr  <br /> &copy; 2017 - 2020
                     </div>
                 </div>
 
